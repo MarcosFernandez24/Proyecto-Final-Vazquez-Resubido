@@ -1,0 +1,109 @@
+[
+{
+
+"id" : 1,
+"nombreJuego" : "Cyberpunk 2077",
+"precioJuego" :  24.99,
+"imagenJuego" : "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/12aaa3b137a18e180bb92682e8f81674dcb7451f-1920x1080.jpg"
+
+},
+{
+
+    "id" : 2,
+    "nombreJuego" : "Assasins Creed Valhalla",
+    "precioJuego" :  29.99,
+    "imagenJuego" : "https://culturageek.com.ar/wp-content/uploads/2020/11/Culturageek.com_.ar-Assassins-Creed-Valhalla-1.jpeg"
+},
+{
+
+    "id" : 3,
+    "nombreJuego" : "Outlast",
+    "precioJuego" :  9.99,
+    "imagenJuego" : "https://image.api.playstation.com/cdn/UP2113/CUSA00325_00/M7Xcn9Q7mUkmm3dSilcsbkORlPPiQ0VK.png"
+},
+{
+
+    "id" : 4,
+    "nombreJuego" : "Bloodborne",
+    "precioJuego" :  9.99,
+    "imagenJuego" : "https://www.gamespot.com/a/uploads/scale_medium/1197/11970954/2682350-image%20%281%29.jpeg"
+},
+{
+
+    "id" : 5,
+    "nombreJuego" : "Metro Exodus",
+    "precioJuego" :  14.99,
+    "imagenJuego" : "https://image.api.playstation.com/vulcan/img/rnd/202010/2814/jhNIE3yH1SNEe9CmxTVHAdme.png"
+},
+{
+
+    "id" : 6,
+    "nombreJuego" : "Dead By Daylight",
+    "precioJuego" :  29.99,
+    "imagenJuego" : "https://cdn1.epicgames.com/offer/611482b8586142cda48a0786eb8a127c/EGS_DeadbyDaylight_BehaviourInteractive_S1_2560x1440-a32581cf9948a9a2e24b2ff15c1577c7"
+},
+{
+
+    "id" : 7,
+    "nombreJuego" : "Left 4 Dead 2",
+    "precioJuego" :  4.99,
+    "imagenJuego" : "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/07/22/16585065104722.jpg"
+},
+{
+
+    "id" : 8,
+    "nombreJuego" : "Resident Evil 4",
+    "precioJuego" :  59.99,
+    "imagenJuego" : "https://www.residentevil.com/showcase/assets/images/thumb-re4-re.jpg"
+},
+{
+
+    "id" : 9,
+    "nombreJuego" : "Amnesia The Dark Descent",
+    "precioJuego" :  7.99,
+    "imagenJuego" : "https://i0.wp.com/lavidaesunvideojuego.com/wp-content/uploads/2020/09/amnesiala_vida_es_un_videojuego.jpg?fit=1200%2C720&ssl=1"
+},
+{
+
+    "id" : 10,
+    "nombreJuego" : "The Witcher 3 Wild Hunt",
+    "precioJuego" : 59.99,
+    "imagenJuego" : "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg?t=1659619680"
+},
+{
+
+    "id" : 11,
+    "nombreJuego" : "Super Meat Boy",
+    "precioJuego" :  4.99,
+    "imagenJuego" : "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_SuperMeatBoy.jpg"
+},
+{
+
+    "id" : 12,
+    "nombreJuego" : "Hollow Knight",
+    "precioJuego" :  14.99,
+    "imagenJuego" : "https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1619987722169-VV6ZASHHZNRBJW9X0PLK/Key_Art_02_layeredjpg.jpg?format=1500w"
+},
+{
+
+    "id" : 13,
+    "nombreJuego" : "Minecraft",
+    "precioJuego" :  14.99,
+    "imagenJuego" : "https://elvortex.com/wp-content/uploads/2020/01/portada-minecraft.jpg"
+},
+{
+
+    "id" : 14,
+    "nombreJuego" : "Stardew Valley",
+    "precioJuego" :  9.99,
+    "imagenJuego" : "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/stardew-valley-switch/hero"
+},
+{
+
+    "id" : 15,
+    "nombreJuego" : "Undertale",
+    "precioJuego" :  7.99,
+    "imagenJuego" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReuY2P5fjADRtQZfrbeENGGA2PH-iOzBJlMpmuI0_U-A681BhwsBkFe5hqqph7nglRjYw&usqp=CAU"
+}
+
+]

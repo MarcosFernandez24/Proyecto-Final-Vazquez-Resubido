@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--         -->
+    <!-- NAVMENU -->
+    <!--         -->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+<div class="container-fluid">
+<span class="text-secondary">E-ComPlay</span>
+
+<!--Boton-->
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menuNavBar"
+aria-controls="navbarSupportedContent"
+aria-expanded="false"
+aria-label="Toggle navigation">
+
+<span class="navbar-toggler-icon"></span>
+</button>
+<!--Boton-->
+
+
+<!--Menu colapsable-->
+
+<div class="collapse navbar-collapse" id="menuNavBar">
+<ul class="navbar-nav me-auto">
+  <li class="nav-item"> <a class="nav-link active" href="index.html">Inicio</a> </li>
+  <li class="nav-item"> <a class="nav-link active" href="#Novedades">Novedades</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="#Productos">Productos</a> </li>
+  <li class="nav-item"> <a class="nav-link" href="#Carrito">Carrito</a> </li>
+</ul>
+</div>
+
+<!--Menu colapsable-->
+</div>
+</nav>
+
+
+    
+    <!--         -->
+    <!-- NAVMENU -->
+    <!--         -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+
+
+    <section class="w-50 mx-center pt-5 border-bottom border-3 border-secondary" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3 border-secondary">Bienvenido a<span class="text-secondary"> E-ComPlay</span></h1>
+      <p class="text-secondary p-3 fs-4"><span >E-ComPlay</span></p>
+      es un e-comerce de videojuegos lider estos ultimos años
+      </section>
+  
+
+<h2></h2>
+<h3></h3>
+
+
+    <form class="container-fluid bg-primary d-flex justify-content-center" id="formNombre">
+
+    <label class="col-form-primary text-dark mt-1" for="inputDefault">Nombre</label>
+  <input type="text" class="form-control" placeholder="Nombre" id="Nombre">
+    <button id="BotonNombre" class="btn btn-secondary button">aceptar</button>
+
+    </form>
+
+     <!--          -->
+     <!-- CAROUSEL -->
+     <!--          -->
+
+
+      <div id="Novedades" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes del carousel/Cyberpunk 2077 comprar.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Compra ahora Cyberpunk 2077</h3>
+              <p>Compra ahora Cyberpunk 2077 y disfruta de uno de los mejores juegos con tematica futurista.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes del carousel/20 USD.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>20$ USD DE REGALO!!</h3>
+              <p>Haciendo que tu monto sea menor a 100$ USD hara que se te añadan 20$ USD de regalo.</p>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes del carousel/THE_WITCHER_3_WILD_HUNT_Game_HD_Wallpaper_06_1920x1080.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Juegos Mundo Abierto</h3>
+              <p>Gran variedad de juegos estilo mundo abierto y con gran cantidad de horas de juego.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Novedades" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Novedades" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+     <!--          -->
+     <!-- CAROUSEL -->
+     <!--          -->
+
+
+     <!--                    -->
+     <!-- Cards con imagenes -->
+     <!--                    -->
+ 
+
+   <div class="row mx-5" id="Productos">
+
+    
+     <!--                      -->
+     <!-- Juegos Mundo Abierto -->
+     <!--                      -->
+
+    <h2 class="text-center"> Mundo Abierto </h2>
+
+    <div class="col ml5" id="juego1">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(mundo abierto)/Cyberpunk 2077.jpg" class="card-img-top" alt="..." id="juego1img">
+      <div class="card-body">
+        <h5 class="card-title mx-5" id="nombreJuego1">Cdsfgdfg</h5>
+        <span class="precio">24.99$ USD</span>
+        <a href="#juego1" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego2">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(mundo abierto)/Assassins-Creed-Valhalla.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Assassins Creed Valhalla</h5>
+        <span class="precio">29.99$ USD</span>
+        <a href="#juego2" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego3">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(mundo abierto)/The Witcher 3 Wild Hunt.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">The Witcher 3 Wild Hunt</h5>
+        <span class="precio">59.99$ USD</span>
+        <a href="#juego3" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego4">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(mundo abierto)/Metro Exodus.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Metro Exodus</h5>
+        <span class="precio">14.99$ USD</span>
+        <a href="#juego4" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego5">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(mundo abierto)/Bloodborne.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Bloodborne</h5>
+        <span class="precio">9.99$ USD</span>
+        <a href="#juego5" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+
+     <!--                      -->
+     <!-- Juegos Mundo Abierto -->
+     <!--                      -->
+
+     <!--                    -->
+     <!-- Juegos De Horror   -->
+     <!--                    -->
+
+  <h2 class="text-center"> Horror </h2>
+
+    <div class="col ml5" id="juego6">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(horror)/Amnesia The Dark Descent.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Amnesia The Dark Descent</h5>
+        <span class="precio">7.99$ USD</span>
+        <a href="#juego6" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego7">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(horror)/OUTLAST.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Outlast</h5>
+        <span class="precio">9.99$ USD</span>
+        <a href="#juego7" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego8">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(horror)/Resident Evil 4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Resident Evil 4 Remastered</h5>
+        <span class="precio">59.99$ USD</span>
+        <a href="#juego8" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego9">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(horror)/Left 4 dead.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Left 4 Dead 2</h5>
+        <span class="precio">4.99$ USD</span>
+        <a href="#juego9" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col ml5" id="juego10">
+
+    <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+      <img src="./imagenes de juegos(horror)/Dead By Daylight.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mx-5">Dead By Daylight</h5>
+        <span class="precio">29.99$ USD</span>
+        <a href="#juego10" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+      </div>
+      
+    </div>
+  </div>
+     <!--                    -->
+     <!-- Juegos De Horror   -->
+     <!--                    -->
+  
+
+     <!--                    -->
+     <!-- Juegos Indies      -->
+     <!--                    -->
+     <h2 class="text-center"> Indies </h2>
+
+     <div class="col ml5" id="juego6">
+ 
+     <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+       <img src="./juegos indies/Stardew Valley.avif" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title mx-5">Stardew Valley</h5>
+         <span class="precio">9.99$ USD</span>
+         <a href="#juego11" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col ml5" id="juego7">
+ 
+     <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+       <img src="./juegos indies/Minecraft.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title mx-5">Minecraft</h5>
+         <span class="precio">14.99</span>
+         <a href="#juego12" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col ml5" id="juego8">
+ 
+     <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+       <img src="./juegos indies/Hollow Knight.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title mx-5">Hollow Knight</h5>
+         <span class="precio">14.99$ USD</span>
+         <a href="#juego13" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col ml5" id="juego9">
+ 
+     <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+       <img src="./juegos indies/Super Meat Boy.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title mx-5">Super Meat Boy</h5>
+         <span class="precio">4.99$ USD</span>
+         <a href="#juego14" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col ml5" id="juego10">
+ 
+     <div class="row mx-3 card border-top border-3 border-primary border-bottom border-3 border-primary bg-secondary" style="width: 18rem;">
+       <img src="./juegos indies/Undertale.png" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title mx-5">Undertale</h5>
+         <span class="precio">7.99$ USD</span>
+         <a href="#juego15" class="btn btn-primary mx-5 button">Agregar al carrito</a>
+       </div>
+       
+     </div>
+   </div>
+
+     
+
+     <!--                    -->
+     <!-- Juegos Indies      -->
+     <!--                    -->
+   
+     </div>
+
+     
+
+     
+   
+     </div>
+
+     
+
+     <!--                    -->
+     <!-- Cards con imagenes -->
+     <!--                    -->
+
+     <!--           -->
+     <!--  Carrito  -->
+     <!--           -->
+
+     <div class="carrito" id="Carrito">
+
+      <h2>Carrito</h2>
+
+     <table class="table table-dark table-hover">
+      <thead>
+        <tr class="text-secondary">
+          <th scope="col">#</th>
+          <th scope="col">Productos</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Cantidad</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">1</th>
+          <td class="table___productos"><img src="./juegos indies/Hollow Knight.jpg">
+            <h6 class="title">Title</h6>
+            </td>
+          <td class="table___precios"><p>7.99$ USD</p></td>
+          <td class="table___cantidad"><input type="number" min="1" value="1"></td>
+          <button class="delete btn btn-danger button">X</button>
+        </tr>
+       
+      </tbody>
+    </table>
+    <br></br>
+    <div class="row mx-4"></div>
+    <div class="col">
+
+      <h3 class="itemCartTotal">Total: 0</h3>
+      <div class="col d-flex justify-content-end">
+        <button class="btn btn-success">COMPRAR</button>
+      </div>
+
+    </div>
+
+     </div>
+
+     <!--           -->
+     <!--  Carrito  -->
+     <!--           -->
+
+
+
+    
+    <script src="./js2.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src= "js/bootstrap.min.js"></script>
+</body>
+</html>
